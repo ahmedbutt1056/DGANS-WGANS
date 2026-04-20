@@ -10,8 +10,8 @@ st.set_page_config(page_title="GAN Image Generator", layout="centered")
 DCGAN_REPO = "supremeproducts45/dcgan"
 WCGAN_REPO = "supremeproducts45/wcgan"
 
-DCGAN_FILE = "dc_g_final.pth"
-WCGAN_FILE = "wg_g_final.pth"
+DCGAN_FILE = "model.pth"
+WCGAN_FILE = "model.pth"
 
 z_dim = 100
 g_size = 64
